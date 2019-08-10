@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="flex.css" type="text/css" rel="stylesheet">
+    <title>Flexbox</title>
+</head>
+<body>
+    <h1>Flex with column alignment [flex-direction: column]</h1>
+    <div class="flex-container-column">
+        <div class="flex-element-orange">
+            Child 1
+        </div>
+        <div class="flex-element-orange">
+            Child 2
+        </div>
+        <div class="flex-element-orange">
+            Child 3 
+        </div>
+        <div class="flex-element-orange">
+            Child 4
+        </div>
+    </div>
+    <h1>Flex with row alignment [flex-direction: row]</h1>
+    <div class="flex-container-row">
+        <div class="flex-element-red">
+            <span>Child 1</span>
+        </div>
+        <div class="flex-element-red">
+            Child 2
+        </div>
+        <div class="flex-element-red" style="flex-grow: 3;">
+            Child 3 - Flex grow 3
+        </div>
+        <div class="flex-element-red">
+            Child 4
+        </div>
+    </div>
+    <h1>Flex with row alignment [flex-wrap: wrap | nowrap | wrap-reverse]</h1>
+    <div class="flex-container-wrap">
+        <div class="flex-element-orange">
+            <span>Child 1</span>
+        </div>
+        <div class="flex-element-orange">
+            Child 2
+        </div>
+        <div class="flex-element-orange" style="min-width: 500px;">
+            to make wrap work increased min-width: 500
+        </div>
+        <div class="flex-element-orange">
+            Child 4
+        </div>
+    </div>
+    <h1>Flex justify contect [justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly]</h1>
+    <div class="flex-container">
+        Center positions
+        <div class="flex-element-orange">
+            Child 1
+        </div>
+        <div class="flex-element-orange">
+            Child 2
+        </div>
+        <div class="flex-element-orange">
+            Child 3
+        </div>
+        <div class="flex-element-orange">
+            Child 4
+        </div>
+    </div>
+</body>
+</html>

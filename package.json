@@ -1,0 +1,24 @@
+{
+  "name": "flexproject",
+  "version": "1.0.0",
+  "description": "Flexbox project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digender/flexproject.git"
+  },
+  "keywords": [
+    "flexbox",
+    "css3"
+  ],
+  "author": "Digender (digender@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Digender/flexproject/issues"
+  },
+  "homepage": "https://github.com/Digender/flexproject#readme"
+}

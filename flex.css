@@ -1,0 +1,46 @@
+.flex-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #aaa;
+}
+
+.flex-container-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+}
+
+.flex-container-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #ddd;
+}
+
+.flex-container-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #ddd;
+}
+
+
+.flex-element-orange {
+    background: orange;
+    border: 5px solid purple;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-element-red {
+    flex: 1;
+    background: red;
+    border: 5px solid purple;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
